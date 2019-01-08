@@ -30,10 +30,5 @@ tempdir = "=0.3.7"
 toml = "=0.4.10"
 protobuf = "2.2.0"
 
-[dev-dependencies]
-exonum-testkit = { version = "0.10.0", path = "../../testkit" }
-pretty_assertions = "=0.5.1"
-assert_matches = "1.2.0"
-
 [build-dependencies]
 exonum-build = { version = "0.10.0", path = "../../components/build" }

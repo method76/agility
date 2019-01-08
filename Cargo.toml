@@ -1,13 +1,9 @@
 [workspace]
 members = [
     "exonum",
-    "examples/cryptocurrency",
-    "examples/cryptocurrency-advanced/backend",
-    "examples/timestamping/backend",
     "services/configuration",
     "services/time",
-    "testkit",
-    "testkit/server",
+    "services/cryptocurrency",
     "components/build",
     "components/crypto",
     "components/derive",

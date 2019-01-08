@@ -1,8 +1,8 @@
 {
-  "name": "exonum",
-  "version": "0.0.0",
+  "name": "agility",
+  "version": "0.1.0",
   "private": true,
-  "description": "JS dependencies for Exonum",
+  "description": "JS dependencies for Agility",
   "dependencies": {},
   "devDependencies": {
     "cspell": "^3.1.3",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/exonum/exonum.git"
   },
-  "author": "Exonum Team <exonum@bitfury.com>",
+  "author": "Ted Kim <methodtweak@naver.com>",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/exonum/exonum/issues"

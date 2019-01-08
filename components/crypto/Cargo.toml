@@ -25,9 +25,6 @@ toml = "=0.4.10"
 uuid = "=0.7.1"
 exonum_sodiumoxide = { version = "0.0.20", optional = true }
 
-[dev-dependencies]
-tempdir = "0.3.7"
-
 [features]
 default = ["sodiumoxide-crypto"]
 sodiumoxide-crypto = ["exonum_sodiumoxide"]
