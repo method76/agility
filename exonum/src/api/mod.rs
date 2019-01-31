@@ -356,6 +356,8 @@ impl ApiAggregator {
         let service_api_state = ServiceApiState::new(blockchain.clone());
         ExplorerApi::wire(builder.public_scope(), service_api_state, shared_node_state);
         builder
+
+
     }
 
     fn system_api(blockchain: &Blockchain, shared_api_state: SharedNodeState) -> ServiceApiBuilder {
